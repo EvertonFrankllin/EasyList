@@ -3,7 +3,14 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>EVERTON</h1>
+      <div class="container">
+        
+        <form id="itemForm">
+            <input type="text" id="itemInput" placeholder="Adicionar item..." required />
+            <button type="submit">Adicionar</button>
+        </form>
+        <ul id="itemList"></ul>
+    </div>
     </div>
   );
 }
